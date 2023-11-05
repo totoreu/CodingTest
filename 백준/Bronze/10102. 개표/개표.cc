@@ -1,10 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
-
-const std::vector<char> Gathers{ 
-    'a', 'e', 'i', 'o', 'u'
-};
 
 int main()
 {
