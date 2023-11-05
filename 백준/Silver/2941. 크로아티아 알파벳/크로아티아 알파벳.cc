@@ -7,12 +7,12 @@ const std::vector<std::string> Croatia{"c=", "c-", "dz=", "d-", "lj", "nj", "s="
 
 const bool Checker(std::string& Str)
 {
-    for (const std::string Alphabet : Croatia)
+    for (const std::string& Alphabet : Croatia)
     {
-        int FindIt = Str.find(Alphabet);
+        size_t FindIt = Str.find(Alphabet);
         if (FindIt != std::string::npos)
         {
-            Str.replace(Str.find(Alphabet), Alphabet.length(), Alphabet.length(),'.');
+            Str.replace(FindIt, Alphabet.length(), Alphabet.length(),'.');
             return true;
         }
     }
