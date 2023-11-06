@@ -1,13 +1,13 @@
 #include <iostream>
 
-inline const int AtSign(const int& A, const int& B)
+inline const long long AtSign(const long long& A, const long long& B)
 {
     return (A + B) * (A - B);
 }
 
 int main() 
 {
-    int A = 0, B = 0;
+    long long A = 0, B = 0;
     std::cin >> A >> B;
     std::cout << AtSign(A, B);
 
