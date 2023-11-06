@@ -1,31 +1,24 @@
 #include <iostream>
 #include <string>
-#include <vector>
+
+size_t Sum(std::string Str)
+{
+    size_t Sum = 0;
+    for (const char& Ch : Str)
+    {
+        Sum += Ch - '0';
+    }
+    return Sum;
+}
 
 int main() {
     std::string Num1, Num2;
     std::cin >> Num1 >> Num2;
 
-    std::vector<int> Num1Array, Num2Array;
-    for (size_t i = 0; i < Num1.length(); i++)
-    {
-        Num1Array.emplace_back(Num1[i] - '0');
-    }
-    for (size_t i = 0; i < Num2.length(); i++)
-    {
-        Num2Array.emplace_back(Num2[i] - '0');
-    }
-    
-    size_t Sum = 0;
-    for (const int& Num1 : Num1Array)
-    {
-        for (const int& Num2 : Num2Array)
-        {
-            Sum += Num1 * Num2;
-        }
-    }
+    size_t Sum1 = Sum(Num1);
+    size_t Sum2 = Sum(Num2);
 
-    std::cout << Sum;
+    std::cout << Sum1 * Sum2;
 
     return 0;
 }
