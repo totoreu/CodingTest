@@ -29,7 +29,7 @@ int main()
     std::cin >> Time;
 
     std::vector<Button*> ButtonArray = {
-        new Button(360),
+        new Button(300),
         new Button(60),
         new Button(10),
     };
