@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <memory>
+
+class Button
+{
+public:
+    Button(unsigned int InTime) : Time(InTime) {}
+
+    inline const unsigned int GetTime() const { return Time; }
+
+private:
+    unsigned int Time = 0;
+};
+
+void IsGreedy(const unsigned int& Button, unsigned int& Time, size_t& Count)
+{
+    Count = Time / Button;
+    Time %= Button;
+}
+
+int main() 
+{
+    unsigned int Time = 0;
+    std::cin >> Time;
+
+    std::vector<std::unique_ptr<Button>> ButtonArray;
+    ButtonArray.emplace_back(std::make_unique<Button>(300));
+    ButtonArray.emplace_back(std::make_unique<Button>(60));
+    ButtonArray.emplace_back(std::make_unique<Button>(10));
+
+    std::vector<int> NumArray;
+    for (const auto& Button : ButtonArray)
+    {
+        size_t Count = 0;
+        IsGreedy(Button->GetTime(), Time, Count);
+        NumArray.emplace_back(Count);
+    }
+
+    if (Time != 0)
+    {
+        std::cout << -1;
+    }
+    else
+    {
+        for (const int& Num : NumArray)
+        {
+            std::cout << Num << " ";
+        }
+    }
+
+    return 0;
+}
