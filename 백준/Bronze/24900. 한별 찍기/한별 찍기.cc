@@ -1,0 +1,71 @@
+#include <iostream>
+
+int main()
+{
+    std::cout << "                                                           :8DDDDDDDDDDDDDD$.                                           " << std::endl;
+    std::cout << "                                                      DDDNNN8~~~~~~~~~~=~7DNNDNDDDNNI                                   " << std::endl;
+    std::cout << "                                                  ?NNDD=~=~~~~~~~~~~~~~~~~~=~~==~=INNDNN7                               " << std::endl;
+    std::cout << "                                               +NDDI~~~~~~~~~~~~~~~~~~~~~~~=~~========~ODND+                            " << std::endl;
+    std::cout << "                                            :NND~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~============7NDN                          " << std::endl;
+    std::cout << "                                          $DD$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~==============~DNN                        " << std::endl;
+    std::cout << "                                        $DD=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~=================NND                      " << std::endl;
+    std::cout << "                                       ND7~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~===================DD7                    " << std::endl;
+    std::cout << "                                     ~DD=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=======================8DN.                  " << std::endl;
+    std::cout << "                                    8DO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=========================DD                  " << std::endl;
+    std::cout << "                                   8N~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~=~~=======================DN                 " << std::endl;
+    std::cout << "                                  NN::::::::~~~~~~~~~~~=~~~~~~~~~~~~~~~~~~~=~~========================DDO               " << std::endl;
+    std::cout << "                                 $D$:::::::::::::::~~~~DD~~~~~~~~~~~~~~~~~~=~~=========================DN.              " << std::endl;
+    std::cout << "                                 D8:::::::::::::::::::DN=::~~~~~~~~~~~~~~~~=~~======================~~:~DN              " << std::endl;
+    std::cout << "                                DN:::::::::::::::::::ONO::::::::::::::::::::~~~~~~~~~~~~:::::::::::::::::DN             " << std::endl;
+    std::cout << "                               DN::::::::::::::::::::NN.:::::::::::::::::::::::::::DN::::::::::::::::::::$DO            " << std::endl;
+    std::cout << "                               DD:::::::::::::::::::DNI:::::::::::::::::::::::::::::D=::::::::::::::::::::NN            " << std::endl;
+    std::cout << "                              NN~~~~:::::$N?:::::::.NN::::::::::::::::::::::::::::::ND.:::::::::::::::::::+N8           " << std::endl;
+    std::cout << "                              N7~~~~~~~~OD7::::::::~DD::::::::::::::::::::::::::::::~D$::::::::::::::::::::DN           " << std::endl;
+    std::cout << "                             NN~~~~~~~~IDZ~~~~~::::DN~:::::::::::::::::::::::::::::::DN::::::::::::::::::::=N~          " << std::endl;
+    std::cout << "                             DD~~~~~~~~NN~~~~~~~~~=NN::::::::::::::::::::::::::::::::DN:::::::::::::::~~====NN          " << std::endl;
+    std::cout << "                            8D~~~~~~~~ND~~~~~~~~~~~ND~~~~~~~~:::::::::::::::::::::::::N7:::~~===============NN          " << std::endl;
+    std::cout << "                            DD~~~~~~~ON+~~~~~~~~~~~ND~~~~~~~~~~~~~~~~~~~=+NZ==========NN====================~ND         " << std::endl;
+    std::cout << "               :DD7   DNDD. N8~~~~~~~NN~~~~~~~~~~DDND~~~~~~~~~~~~~~~~~~~~ND~~=========DD=====================ND         " << std::endl;
+    std::cout << "               N~:DDNNN .8NDN~~~~~~~$D=~~~~~~~~+ND.DD~~~~~~~~~~~~~~~~~~~=DD~~=========~D+====================DN         " << std::endl;
+    std::cout << "              :D     .  ..~ND~~~~~~~NN~~~~~~~+NN$..ND~~~~~~~~~~~~~~~~~~~7N=~~=========~ND=======~============ON         " << std::endl;
+    std::cout << "              NN       ...:N?~~~~~~~N=~~~~~NNNI.. .7D+~~~~~~~~~~~~~~~~~=8NN~~==========NN=======N============$N         " << std::endl;
+    std::cout << "         N  ODN       ....DN~~~~~~~DD=8NNND$..     .DD~~~=~~~~~~~~~~~~~=NNDD=~=========8D~======NN===========~N$        " << std::endl;
+    std::cout << "    N? =NN  ND      .....NND~~~~~~~DDNN:...        .ND=~DNN~~~~~~~~~~~~=DN.DN~=========?N+======NN============ND        " << std::endl;
+    std::cout << "   $D? DN    DZ    ....ND8NN~~~~~~$D                .DD~NNDD~~~~~~~~~~~~D8..DN=========~DN======NN============DN        " << std::endl;
+    std::cout << "   DN ~N~   NN    ..:~NN..NZ~~~~~~DN                  NNN8.ND~~~~NDN?~~~DZ...7DD=======~NN======NN============DN        " << std::endl;
+    std::cout << "   ND DD    :DN.  ..ND$  .N?~~~~~=NNN                   . ..DDD$~N8OND8=N+   ..DDDZ~====NN======+D+===========ND        " << std::endl;
+    std::cout << "   NO         DD  ZDN    8NO~~~~~~NNN..DDDNN7               ...NND...:DDD:     .:.NDND=~DD======~DO===========DN        " << std::endl;
+    std::cout << "              DNDDN:.    DN~~~~~~=NNNN.ODNNNNDDNNO              ...     .         ...DNNNN=======ND===========DD        " << std::endl;
+    std::cout << "       INDN7    DD.     .DD~~~~~=IDND:.:~.....?DNDNN.                        ...... ....$D=======ND===========ND        " << std::endl;
+    std::cout << "       NN        ND.    8N=~~~~$ND::.:=~:.~=......=ND~                 .NNNNNNNNNNNNNNN.~N+======NN===========DN        " << std::endl;
+    std::cout << "       $DD        DN:   DD~~~~7NO...~==.:~~:.....                      NNNND? ..::..7NZ.:N?======8D~==========ZN        " << std::endl;
+    std::cout << "       DN?     ~D: DND.?D~~~~~DD....~:.~=~.......                            ....~=:.:~..ND======~N$==========~DO       " << std::endl;
+    std::cout << "       ND    ..DD.  .DNDN=~~~~DI.......:.........                           ....=~..~~~..DN======~DD===========NN       " << std::endl;
+    std::cout << "       DDD  :.:DD.  . DDI~~~~~ND................        .DNNNNNNNNNN7      ....=~:.:~~...NN=======ND===========?D~      " << std::endl;
+    std::cout << "       8D. ...OD..    DD~~~~~~+ND ............          NN:~::::~~~8N      ........~~...:ND=======DN============NN      " << std::endl;
+    std::cout << "       DDI:...ND     .D7~~~~~~~7NN ..........           ID8::::::::8D      .............:DN=======ON============NN      " << std::endl;
+    std::cout << "        ~NNND.N=.   .NN~~~~~~~~~NDN8                       ~::::::~N8       .............DN========D=============NI     " << std::endl;
+    std::cout << "               DDNNN.ND~~~~~~~~DD =DND                                       ............DN========N+~===========NN     " << std::endl;
+    std::cout << "                   ~:N=~~~~~~~~DD   .DDDD                                       ........ NN========DD============8D     " << std::endl;
+    std::cout << "                    8N~~~~~~~~~ND    . .7NDDD? .                                      .8DDN========NN=============D:    " << std::endl;
+    std::cout << "                    DD~~~~~~~~~DND:         IDNNND$.                           .+DNNNNDNIDN========DD=============DD    " << std::endl;
+    std::cout << "                    ND~~~~~~~~ZN 7DD .. .:DDNDDNNDNNNNDDNDND8$?===+$8DDNNNDDDDDN8I~DN====8N========NN=============NN    " << std::endl;
+    std::cout << "                    DD~~~~~~~~8N   DD.  .NN~~~~.~~=DNDNO.:7ODDDDNNDD8DDDND=~~~ =~~~ON====8N========DN=============DN    " << std::endl;
+    std::cout << "                    ND~~~~~~~~DN    ZDD  DN~~~ ~~~~~=.7DDD+.......8NNN==~~~~~ ~~~~~ONN$==DN========8N=============ON    " << std::endl;
+    std::cout << "                    ND~8N~=~~~ZN      DDODN=~.~~~~~=.~~~~INDNNNNDNN~~~~~~~~:~~~~~~~DN~ND=DN========DD=========~ND=8N    " << std::endl;
+    std::cout << "                    IN=NDDI~~~~D8       DNN::~~~~~.~~~~~=.~~ND~~ND~~~~~~~~.~~~~~~~~NN  NDNN====ND==ND~D?======DNN=ND    " << std::endl;
+    std::cout << "                     DNNI8ND=~~DN:       ZN=~~~~~ ~~~~~.~~~~DD~=DD~~~~~~~ ~~~~~~~=.ND. . ND===DNDD=NDDNN=====8NZDDDN    " << std::endl;
+    std::cout << "                      NND  IDNDNNN+       D+~~~:~~~~~~ ~~~~~DDNNN+~~~~~~~~~~~~~~:=?N7   .ND=~ND  DNNN~ID====ND7 NNN     " << std::endl;
+    std::cout << "                       ID                 ND~~ ~~~~~:.~~~7DDN7IDNN==~~ ~~~~~~~~ ~~DN   .:N?DDDDD NND  8N~=DDD  ZNN      " << std::endl;
+    std::cout << "                                          NN~:~~~~~ =7DDDD+8N  :N8DDZ.~~~~~~~~.~~~DD.   NDD+ . DN=     OND+             " << std::endl;
+    std::cout << "                                          DND~~~=8DNDDZ=~~ ND   NN~INND~~~~~.~~~~ND .    .    ..IDD                     " << std::endl;
+    std::cout << "                                         DDNNNDNNN+~~~~~~.7N.    ND~~~NDDI~ ~~~~=NNN             .DDI                   " << std::endl;
+    std::cout << "                                        DN=~~~~.=~~~~~~ ~~DN     +N+~~~~+DNDD~~~NNNND.            ..ND                  " << std::endl;
+    std::cout << "                                         DDI~~ ~~~~~~~ ~~~ND..  ..ND~~~~:~~~DNDNNNN+            ..7O8ND+                " << std::endl;
+    std::cout << "                                          .DND=~~~~=::~~=NN.   . . 8D~~.~~~~~~=DN$ODNDNDNNNDNNNNND8+~..                 " << std::endl;
+    std::cout << "                                             8DNNI=.~~~~=NDDNNNNDDNDNN.~~~~~IDDNDND7:.                                  " << std::endl;
+    std::cout << "                                                ?DNNDD?~DD          ~NN~~=NDD$                                          " << std::endl;
+    std::cout << "                                                     :DDD.            NNNN=                                             " << std::endl;
+
+    return 0;
+}
